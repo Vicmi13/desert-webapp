@@ -2,8 +2,16 @@
 {
    "version": 2, 
    "builds": [
+      { "src": "/views/*", "use": "@now/static" },
       { "src": "./start.js", "use": "@now/node" }
-  ] 
+  ] ,
+  "env": {
+   "NODE_ENV":"production",
+   "MAIL_HOST":"smtp.mailtrap.io",
+   "MAIL_PORT":"2525",
+   "PORT":"7777",
+   "KEY":"sweetsesh"
+   }
 }
 
 
