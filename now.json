@@ -7,7 +7,7 @@
   ] ,
   "env": {
    "NODE_ENV":"production",
-   "DATABASE:mongodb":"//vector:vector123@ds121312.mlab.com:21312/desserts-app",
+   "DATABASE":"mongodb://vector:vector123@ds121312.mlab.com:21312/desserts-app",
    "MAIL_USER":"e006cad30ae23c",
    "MAIL_PASS":"475d7d85b786ac",
    "MAIL_HOST":"smtp.mailtrap.io",
